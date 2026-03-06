@@ -50,14 +50,23 @@
 
 ## Open Source Contributions
 
-I contribute upstream when the correct home for the work is the ecosystem itself, not a personal fork.
+I do not treat upstream work as a side quest. When the right fix belongs in the ecosystem, I would rather land it there than keep a private workaround alive forever.
 
-| Ecosystem | What I shipped | Links |
-| --- | --- | --- |
-| **Nix / nixpkgs** | Brought `flang` onto the 20.x line, then extended the packaging story with runtime support. | [#428306](https://github.com/NixOS/nixpkgs/pull/428306) · [#452306](https://github.com/NixOS/nixpkgs/pull/452306) |
-| **LLVM / MLIR / Flang** | Build-system and packaging fixes aimed at reducing toolchain friction rather than patching around it downstream. | [#154412](https://github.com/llvm/llvm-project/pull/154412) · [#150987](https://github.com/llvm/llvm-project/pull/150987) |
+- **Nix / nixpkgs**: compiler packaging, version bring-up, and runtime support work around `flang` and related toolchain edges.
+- **LLVM / MLIR / Flang**: build-system and integration fixes aimed at removing downstream friction instead of papering over it locally.
+- **AFL++**: low-level fuzzing and runtime-path fixes in systems code where small mistakes quietly become real debugging costs.
 
-These are the kinds of contributions I like most: infrastructure work that is boring in the right way, but makes real systems build, package, and ship correctly.
+This is the kind of engineering I enjoy most: infrastructure work that is invisible when done well, but changes whether real systems build, package, and ship cleanly.
+
+<details>
+  <summary>Selected upstream patches</summary>
+
+  <ul>
+    <li><code>nixpkgs</code>: <a href="https://github.com/NixOS/nixpkgs/pull/428306">#428306</a>, <a href="https://github.com/NixOS/nixpkgs/pull/452306">#452306</a></li>
+    <li><code>llvm-project</code>: <a href="https://github.com/llvm/llvm-project/pull/154412">#154412</a>, <a href="https://github.com/llvm/llvm-project/pull/150987">#150987</a></li>
+    <li><code>AFLplusplus</code>: <a href="https://github.com/AFLplusplus/AFLplusplus/pull/2073">#2073</a></li>
+  </ul>
+</details>
 
 ## Selected Tools
 
