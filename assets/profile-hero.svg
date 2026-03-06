@@ -14,7 +14,8 @@
 
   <text x="84" y="108" fill="#E8E0D0" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="4">RESEARCH POSTER</text>
   <text x="84" y="202" fill="#F6F0E6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="92" font-weight="700" letter-spacing="6">ACTURE</text>
-  <text x="84" y="246" fill="#D19B4D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="3">SYSTEMS / SEMANTICS / ECOSYSTEMS / TOOLS</text>
+  <text x="84" y="246" fill="#D19B4D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="2.4">SYSTEMS / SEMANTICS</text>
+  <text x="84" y="271" fill="#D19B4D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="2.4">ECOSYSTEMS / TOOLS</text>
 
   <text x="84" y="302" fill="#C7D0E2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">academic + industry contexts</text>
   <text x="84" y="334" fill="#C7D0E2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">research lab artifact evaluation</text>

@@ -5,7 +5,7 @@
 <h1 align="center">acture</h1>
 
 <p align="center">
-  <strong>research systems × ecosystem engineering × semantics-aware infrastructure</strong>
+  <strong>research systems × ecosystem engineering × sharp developer tools</strong>
 </p>
 
 <table>
@@ -37,6 +37,7 @@
 <p align="center">
   <a href="#research-thread">Research</a> ·
   <a href="#ecosystem-work">Ecosystem</a> ·
+  <a href="#selected-tools">Tools</a> ·
   <a href="#collaboration">Collaboration</a>
 </p>
 
@@ -108,6 +109,49 @@ This is the kind of engineering I enjoy most: work that becomes foundational for
   </ul>
 </details>
 
+## Selected Tools
+
+Public work tends to be small, sharp, and operational: tools with a narrow surface area and a strong opinion about how the workflow should feel.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/Acture/review-loop">review-loop</a></strong><br/>
+      durable CLI and daemon for review submission and retrieval, with explicit state, retries, and traceable local artifacts<br/>
+      <sub>Rust, SQLite</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/Acture/char-cloud">char-cloud</a></strong><br/>
+      shape-constrained SVG word cloud generator with reproducible output and reusable library APIs<br/>
+      <sub>Rust, SVG</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/Acture/d2typ">d2typ</a></strong><br/>
+      data-to-Typst conversion for document workflows that move quickly from structured input to publishable output<br/>
+      <sub>Rust, Typst</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/Acture/tree-sitter-paradox">tree-sitter-paradox</a></strong><br/>
+      tree-sitter grammar and bindings for Paradox scripting languages, designed for better parsing and tooling<br/>
+      <sub>Tree-sitter, JavaScript, C</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/Acture/scriptmark">scriptmark</a></strong><br/>
+      automated grading tooling for scriptable evaluation workflows with a bias toward practical batch use<br/>
+      <sub>Python</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/Acture/modus-foch">modus-foch</a></strong><br/>
+      static analysis tool for Paradox mod playsets, focused on symbol indexing, rule checks, and dependency integrity<br/>
+      <sub>Rust</sub>
+    </td>
+  </tr>
+</table>
+
 ## Collaboration
 
 <table>
@@ -122,49 +166,6 @@ This is the kind of engineering I enjoy most: work that becomes foundational for
       <strong>Reach</strong><br/>
       <a href="mailto:acturea@gmail.com">acturea@gmail.com</a><br/>
       WeChat available on request
-    </td>
-  </tr>
-</table>
-
-## Public Utilities
-
-These are supporting public artifacts rather than the center of the profile: small, opinionated tools that reflect how I like workflows to behave.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/review-loop">review-loop</a></strong><br/>
-      review submission and retrieval with durable local state<br/>
-      <sub>Rust, SQLite</sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/char-cloud">char-cloud</a></strong><br/>
-      reproducible, shape-constrained SVG word clouds<br/>
-      <sub>Rust, SVG</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/d2typ">d2typ</a></strong><br/>
-      structured data into Typst-ready documents<br/>
-      <sub>Rust, Typst</sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/tree-sitter-paradox">tree-sitter-paradox</a></strong><br/>
-      a grammar and bindings for Paradox scripting languages<br/>
-      <sub>Tree-sitter, JavaScript, C</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/scriptmark">scriptmark</a></strong><br/>
-      grading support for scriptable evaluation loops<br/>
-      <sub>Python</sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/modus-foch">modus-foch</a></strong><br/>
-      static analysis for Paradox mod dependency integrity<br/>
-      <sub>Rust</sub>
     </td>
   </tr>
 </table>
