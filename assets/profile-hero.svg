@@ -1,0 +1,37 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Acture research poster hero</title>
+  <desc id="desc">A geometric poster-style hero image with research systems, ecosystem work, and artifact evaluation themes.</desc>
+  <rect width="1400" height="420" fill="#0B1020"/>
+  <rect x="32" y="32" width="1336" height="356" stroke="#7C8DB5" stroke-width="2"/>
+  <rect x="56" y="56" width="524" height="308" fill="#121A30"/>
+  <rect x="604" y="56" width="356" height="144" fill="#E8E0D0"/>
+  <rect x="984" y="56" width="360" height="144" fill="#202B48"/>
+  <rect x="604" y="220" width="356" height="144" fill="#202B48"/>
+  <rect x="984" y="220" width="360" height="144" fill="#E8E0D0"/>
+
+  <line x1="604" y1="210" x2="1344" y2="210" stroke="#7C8DB5" stroke-width="2"/>
+  <line x1="972" y1="56" x2="972" y2="364" stroke="#7C8DB5" stroke-width="2"/>
+
+  <text x="84" y="108" fill="#E8E0D0" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="4">RESEARCH POSTER</text>
+  <text x="84" y="202" fill="#F6F0E6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="92" font-weight="700" letter-spacing="6">ACTURE</text>
+  <text x="84" y="246" fill="#D19B4D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="3">SYSTEMS / SEMANTICS / ECOSYSTEMS / TOOLS</text>
+
+  <text x="84" y="302" fill="#C7D0E2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">academic + industry contexts</text>
+  <text x="84" y="334" fill="#C7D0E2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">research lab artifact evaluation</text>
+
+  <text x="632" y="100" fill="#0B1020" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">RESEARCH THREAD</text>
+  <text x="632" y="138" fill="#0B1020" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Agentic systems</text>
+  <text x="632" y="170" fill="#0B1020" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">program semantics / evaluation / structured modeling</text>
+
+  <text x="1012" y="100" fill="#E8E0D0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">ECOSYSTEM WORK</text>
+  <text x="1012" y="138" fill="#F6F0E6" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Toolchains</text>
+  <text x="1012" y="170" fill="#D7DEED" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">nixpkgs / llvm / afl++ / tree-sitter</text>
+
+  <text x="632" y="264" fill="#E8E0D0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">ENGINEERING STANCE</text>
+  <text x="632" y="302" fill="#F6F0E6" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Foundational work</text>
+  <text x="632" y="334" fill="#D7DEED" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">build cleanly / ship cleanly / leave fewer sharp edges</text>
+
+  <text x="1012" y="264" fill="#0B1020" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">CURRENT SIGNAL</text>
+  <text x="1012" y="302" fill="#0B1020" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Research-first</text>
+  <text x="1012" y="334" fill="#0B1020" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">software workflows / artifact evaluation / systems rigor</text>
+</svg>
