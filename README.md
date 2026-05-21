@@ -23,9 +23,7 @@
       program semantics<br/>
       ecosystem work<br/>
       artifact evaluation<br/><br/>
-      <strong>Reach</strong><br/>
-      <a href="mailto:acturea@gmail.com">acturea@gmail.com</a><br/>
-      WeChat available on request
+      <strong>Msg me if you want to talk</strong><br/>
     </td>
   </tr>
 </table>
