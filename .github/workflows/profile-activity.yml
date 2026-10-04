@@ -63,6 +63,11 @@ jobs:
           UTC_OFFSET: 8
           EXCLUDE: HTML,CSS,MDX
           AUTO_PUSH: false
+      - name: Keep the light language and commit-timing cards
+        if: env.HAS_METRICS_TOKEN == 'true'
+        run: |
+          cp profile-summary-card-output/github/1-repos-per-language.svg assets/summary-languages.svg
+          cp profile-summary-card-output/github/4-productive-time.svg assets/summary-time.svg
       - name: Generate dark summary cards
         if: env.HAS_METRICS_TOKEN == 'true'
         uses: vn7n24fzkq/github-profile-summary-cards@e722eded97059b31d7e8ad3ae0267b74ff24172d
@@ -75,11 +80,9 @@ jobs:
           UTC_OFFSET: 8
           EXCLUDE: HTML,CSS,MDX
           AUTO_PUSH: false
-      - name: Keep the language and commit-timing cards
+      - name: Keep the dark language and commit-timing cards
         if: env.HAS_METRICS_TOKEN == 'true'
         run: |
-          cp profile-summary-card-output/github/1-repos-per-language.svg assets/summary-languages.svg
-          cp profile-summary-card-output/github/4-productive-time.svg assets/summary-time.svg
           cp profile-summary-card-output/github_dark/1-repos-per-language.svg assets/summary-languages-dark.svg
           cp profile-summary-card-output/github_dark/4-productive-time.svg assets/summary-time-dark.svg
       - name: Save updated summary cards
