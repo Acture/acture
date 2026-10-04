@@ -1,169 +1,145 @@
-<p align="center">
-  <img src="./assets/profile-hero.svg" alt="Acture research poster hero" width="100%" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-hero-static.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero.svg" />
+  <img src="./assets/profile-hero.svg" alt="acture — research, systems, and open source" width="100%" />
+</picture>
+
+<table align="right" width="32%">
+<tr><td align="center">
+<h4>Between commits</h4>
+<img src="./assets/metrics-isocalendar.svg" alt="An isometric view of Acture's GitHub contribution calendar" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img src="./assets/github-snake.svg" alt="A snake eating Acture's GitHub contribution grid" width="100%" />
+</picture>
+</td></tr>
+</table>
+
+I study agent reliability and program semantics, and build the research
+infrastructure and language tools that let me investigate both.
+
+My work moves between experiments and implementation: evaluating agents,
+working with language semantics, and building the systems behind both.
+I like working on the research question and its machinery.
+
+Rust and Python are my usual starting points. For desktop interfaces, I use
+TypeScript and Swift. I contribute to open-source tooling.
+
+<br clear="right" />
+
+[Research](#-research) · [Engineering](#-engineering) · [Projects](#-projects) · [Collaboration](#-collaboration)
+
+---
+
+### `/// RESEARCH`
+
+<p>
+<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"><img src="./assets/badges/msra.svg" alt="Microsoft Research Asia" /></a>
+<a href="https://2026.emnlp.org/"><img src="./assets/badges/emnlp.svg" alt="EMNLP 2026" /></a>
+<img src="./assets/badges/llm-agents.svg" alt="LLM Agents" />
+<img src="./assets/badges/llm-evaluation.svg" alt="LLM Evaluation" />
+<img src="./assets/badges/ai-for-software-engineering.svg" alt="AI For Software Engineering" />
+<br />
+<img src="./assets/badges/program-semantics.svg" alt="Program Semantics" />
+<img src="./assets/badges/software-evolution.svg" alt="Software Evolution" />
+<img src="./assets/badges/knowledge-representation-and-reasoning.svg" alt="Knowledge Representation And Reasoning" />
 </p>
 
-<h1 align="center">acture</h1>
+---
 
-<p align="center">
-  <strong>research systems × ecosystem engineering × sharp developer tools</strong>
+### `/// ENGINEERING`
+
+#### Language and systems tools
+
+<p>
+<img src="./assets/badges/rust.svg" alt="Rust" />
+<img src="./assets/badges/tree-sitter.svg" alt="Tree-sitter" />
+<img src="./assets/badges/python.svg" alt="Python" />
 </p>
 
-<table>
-  <tr>
-    <td width="64%" valign="top">
-      <strong>Research-oriented systems, built to survive real workflows.</strong><br/>
-      I build research systems and evaluation artifacts, then push the same taste for rigor into compiler,
-      packaging, fuzzing, and language-tooling work.<br/><br/>
-      Currently working on artifact evaluation in a research lab setting, with a background spanning academic and
-      industry software workflows.
-    </td>
-    <td width="36%" valign="top">
-      <strong>Current signal</strong><br/>
-      agent systems<br/>
-      program semantics<br/>
-      ecosystem work<br/>
-      artifact evaluation<br/><br/>
-      <strong>Msg me if you want to talk</strong><br/>
-    </td>
-  </tr>
-</table>
+I work with parsers, compiler tooling, and cross-language bindings. I’m
+interested in preserving meaning across languages and interfaces, including
+differences in runtime behavior that text transformations can miss.
 
-<p align="center">
-  <code>research // semantics // toolchains // static analysis // workflow automation</code>
+#### Experimental infrastructure
+
+<p><code>Controlled environments</code> <code>Process tracing</code> <code>Benchmark harnesses</code></p>
+
+Research infrastructure is a large part of my engineering work: controlled
+environments, process tracing, test harnesses, and inspectable execution records.
+I build these systems to investigate research questions.
+
+#### Native and terminal interfaces
+
+<p>
+<img src="./assets/badges/tauri.svg" alt="Tauri" />
+<img src="./assets/badges/typescript.svg" alt="TypeScript" />
+<img src="./assets/badges/swift.svg" alt="Swift" />
 </p>
 
-<p align="center">
-  <a href="#research-thread">Research</a> ·
-  <a href="#ecosystem-work">Ecosystem</a> ·
-  <a href="#selected-tools">Tools</a> ·
-  <a href="#collaboration">Collaboration</a>
+I build terminal interfaces, Tauri desktop apps, and Swift/AppKit on macOS.
+A shared Rust core with multiple clients is a recurring pattern, bringing
+these tools into everyday research and engineering workflows.
+
+---
+
+### `/// OPEN-SOURCE CONTRIBUTIONS`
+
+<p>
+<a href="https://github.com/NixOS/nixpkgs"><img src="./assets/badges/nixpkgs.svg" alt="Nixpkgs" /></a>
+<a href="https://github.com/llvm/llvm-project"><img src="./assets/badges/llvm.svg" alt="LLVM" /></a>
+<a href="https://github.com/AFLplusplus/AFLplusplus"><img src="./assets/badges/aflplusplus.svg" alt="AFL++" /></a>
+<a href="https://github.com/benwilliamgraham/tree-sitter-llvm"><img src="./assets/badges/tree-sitter.svg" alt="Tree-sitter tooling" /></a>
 </p>
 
-## Research Thread
+I contribute to the compiler, packaging, fuzzing, and parsing ecosystems I work
+with.
 
-> Some active work stays intentionally abstract here while under review.
-> The stable through-line is a recurring set of technical problems, not a list of titles.
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/summary-languages-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/summary-languages.svg" />
+  <img src="./assets/summary-languages.svg" alt="Languages by repository, generated by GitHub Profile Summary Cards" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/summary-time-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/summary-time.svg" />
+  <img src="./assets/summary-time.svg" alt="Commit timing in UTC+8, generated by GitHub Profile Summary Cards" width="400" />
+</picture>
+</p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Agentic Software Engineering</strong><br/>
-      orchestrated workflows for program transformation, inspection, and constrained automation
-    </td>
-    <td width="50%" valign="top">
-      <strong>Benchmark &amp; Artifact Design</strong><br/>
-      evaluation setups built for reproducibility, diagnosability, and real execution constraints
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Program Semantics</strong><br/>
-      semantics-aware translation, reconstruction, and transformation rather than surface-only rewriting
-    </td>
-    <td width="50%" valign="top">
-      <strong>Language-Centric Modeling</strong><br/>
-      semantic understanding and structured modeling for language-heavy or annotation-heavy tasks
-    </td>
-  </tr>
-</table>
+---
 
-## Ecosystem Work
+### `/// PROJECTS`
 
-I do not treat ecosystem work as a side quest. When the right fix belongs upstream, I would rather land it there than keep a private workaround alive forever. When the ecosystem needs a missing layer, I would rather build it cleanly than leave the gap in place.
+Some of that work lives here:
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Nix / nixpkgs</strong><br/>
-      compiler packaging, version bring-up, and runtime support work around <code>flang</code> and related toolchain edges
-    </td>
-    <td width="50%" valign="top">
-      <strong>LLVM / MLIR / Flang</strong><br/>
-      build-system and integration fixes aimed at removing downstream friction instead of papering over it locally
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>AFL++</strong><br/>
-      low-level fuzzing and runtime-path fixes in systems code where small mistakes quietly become real debugging costs
-    </td>
-    <td width="50%" valign="top">
-      <strong>Tree-sitter ecosystem</strong><br/>
-      grammar authoring, binding maintenance, and parser-upgrade work for domain-specific language tooling
-    </td>
-  </tr>
-</table>
+- **⊢** [**Stepwise**](https://github.com/Acture/Stepwise) <img src="./assets/badges/tauri.svg" alt="Tauri" /> <img src="./assets/badges/rust.svg" alt="Rust" /><br />
+  My work on learning Python evaluation and natural deduction through individually checked steps.<br />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="./assets/stepwise-trace-dark.png" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/stepwise-trace-light.png" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stepwise-trace-dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stepwise-trace-light.gif" />
+    <img src="./assets/stepwise-trace-light.gif" alt="A replay of Stepwise's actual CLI trace: 2 + (3 * 4) becomes 14 through three checked steps" width="280" />
+  </picture>
+- **⧉** [**Foch**](https://github.com/Acture/foch) <img src="./assets/badges/rust.svg" alt="Rust" /> <img src="./assets/badges/wip.svg" alt="Work in progress" /><br />
+  Script analysis and merge tooling for Europa Universalis IV.<br />
+  <em>Some people play Europa Universalis IV. I also ended up writing tooling for its mod files.</em>
+- **▦** [**Teaser**](https://github.com/Acture/teaser) <img src="./assets/badges/swift.svg" alt="Swift" /> <img src="./assets/badges/wip.svg" alt="Work in progress" /><br />
+  I’m building a macOS environment around complete project workspaces.
+- **⌘** [**ScriptMark**](https://github.com/Acture/scriptmark) <img src="./assets/badges/rust.svg" alt="Rust" /> <img src="./assets/badges/python.svg" alt="Python bindings" /><br />
+  My tooling for grading programming assignments and revisiting execution evidence.
+- **◫** [**tree-sitter-paradox**](https://github.com/Acture/tree-sitter-paradox) <img src="./assets/badges/tree-sitter.svg" alt="Tree-sitter" /><br />
+  A reusable grammar I maintain for Paradox scripts and their editor integrations.
 
-This is the kind of engineering I enjoy most: work that becomes foundational for other engineers, even when the surface area looks small.
+---
 
-<details>
-  <summary>Selected links</summary>
-  <ul>
-    <li><code>nixpkgs</code>: <a href="https://github.com/NixOS/nixpkgs/pull/428306">#428306</a>, <a href="https://github.com/NixOS/nixpkgs/pull/452306">#452306</a></li>
-    <li><code>llvm-project</code>: <a href="https://github.com/llvm/llvm-project/pull/154412">#154412</a>, <a href="https://github.com/llvm/llvm-project/pull/150987">#150987</a></li>
-    <li><code>AFLplusplus</code>: <a href="https://github.com/AFLplusplus/AFLplusplus/pull/2073">#2073</a></li>
-    <li><code>tree-sitter-paradox</code>: <a href="https://github.com/Acture/tree-sitter-paradox">repository</a></li>
-    <li><code>tree-sitter-llvm</code>: <a href="https://github.com/benwilliamgraham/tree-sitter-llvm/pull/9">#9</a>, <a href="https://github.com/benwilliamgraham/tree-sitter-llvm/pull/10">#10</a>, <a href="https://github.com/benwilliamgraham/tree-sitter-llvm/pull/12">#12</a></li>
-  </ul>
-</details>
+### `/// COLLABORATION`
 
-## Selected Tools
+An agent evaluation to untangle, a language tool to build, or an EU4 mod that refuses to merge?
 
-Public work tends to be small, sharp, and operational: tools with a narrow surface area and a strong opinion about how the workflow should feel.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/review-loop">review-loop</a></strong><br/>
-      durable CLI and daemon for review submission and retrieval, with explicit state, retries, and traceable local artifacts<br/>
-      <sub>Rust, SQLite</sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/char-cloud">char-cloud</a></strong><br/>
-      shape-constrained SVG word cloud generator with reproducible output and reusable library APIs<br/>
-      <sub>Rust, SVG</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/d2typ">d2typ</a></strong><br/>
-      data-to-Typst conversion for document workflows that move quickly from structured input to publishable output<br/>
-      <sub>Rust, Typst</sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/tree-sitter-paradox">tree-sitter-paradox</a></strong><br/>
-      tree-sitter grammar and bindings for Paradox scripting languages, designed for better parsing and tooling<br/>
-      <sub>Tree-sitter, JavaScript, C</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/scriptmark">scriptmark</a></strong><br/>
-      automated grading tooling for scriptable evaluation workflows with a bias toward practical batch use<br/>
-      <sub>Python</sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/Acture/modus-foch">modus-foch</a></strong><br/>
-      static analysis tool for Paradox mod playsets, focused on symbol indexing, rule checks, and dependency integrity<br/>
-      <sub>Rust</sub>
-    </td>
-  </tr>
-</table>
-
-## Collaboration
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Open to</strong><br/>
-      research collaboration on systems, tooling, and evaluation<br/>
-      benchmark, artifact, and reproducibility work<br/>
-      developer tooling, language infrastructure, and static analysis
-    </td>
-    <td width="50%" valign="top">
-      <strong>Reach</strong><br/>
-      <a href="mailto:acturea@gmail.com">acturea@gmail.com</a><br/>
-      WeChat available on request
-    </td>
-  </tr>
-</table>
+I'd like to hear about it. **[acturea@gmail.com](mailto:acturea@gmail.com)**

@@ -1,0 +1,119 @@
+name: Profile activity
+
+on:
+  schedule:
+    - cron: "17 20 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/profile-activity.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  isocalendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      HAS_METRICS_TOKEN: ${{ secrets.METRICS_TOKEN != '' }}
+    steps:
+      - name: Generate the isometric contribution calendar
+        if: env.HAS_METRICS_TOKEN == 'true'
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
+          user: Acture
+          filename: assets/metrics-isocalendar.svg
+          base: ""
+          config_timezone: Asia/Shanghai
+          config_display: large
+          config_padding: 0, 0
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+  summary-cards:
+    needs: isocalendar
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      HAS_METRICS_TOKEN: ${{ secrets.METRICS_TOKEN != '' }}
+    steps:
+      - name: Check out the latest profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: master
+      - name: Generate light summary cards
+        if: env.HAS_METRICS_TOKEN == 'true'
+        uses: vn7n24fzkq/github-profile-summary-cards@e722eded97059b31d7e8ad3ae0267b74ff24172d
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          USERNAME: Acture
+          NAME: Acture
+          THEME: github
+          UTC_OFFSET: 8
+          EXCLUDE: HTML,CSS,MDX
+          AUTO_PUSH: false
+      - name: Generate dark summary cards
+        if: env.HAS_METRICS_TOKEN == 'true'
+        uses: vn7n24fzkq/github-profile-summary-cards@e722eded97059b31d7e8ad3ae0267b74ff24172d
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          USERNAME: Acture
+          NAME: Acture
+          THEME: github_dark
+          UTC_OFFSET: 8
+          EXCLUDE: HTML,CSS,MDX
+          AUTO_PUSH: false
+      - name: Keep the language and commit-timing cards
+        if: env.HAS_METRICS_TOKEN == 'true'
+        run: |
+          cp profile-summary-card-output/github/1-repos-per-language.svg assets/summary-languages.svg
+          cp profile-summary-card-output/github/4-productive-time.svg assets/summary-time.svg
+          cp profile-summary-card-output/github_dark/1-repos-per-language.svg assets/summary-languages-dark.svg
+          cp profile-summary-card-output/github_dark/4-productive-time.svg assets/summary-time-dark.svg
+      - name: Save updated summary cards
+        if: env.HAS_METRICS_TOKEN == 'true'
+        uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7
+        with:
+          commit_message: "chore: update profile summary cards"
+          file_pattern: assets/summary-languages.svg assets/summary-time.svg assets/summary-languages-dark.svg assets/summary-time-dark.svg
+          branch: master
+
+  snake:
+    needs: [isocalendar, summary-cards]
+    if: ${{ always() && !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the latest profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: master
+      - name: Generate contribution snakes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: Acture
+          outputs: |
+            assets/github-snake.svg
+            assets/github-snake-dark.svg?palette=github-dark
+      - name: Save updated snakes
+        uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7
+        with:
+          commit_message: "chore: update contribution snakes"
+          file_pattern: assets/github-snake.svg assets/github-snake-dark.svg
+          branch: master

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
+<title id="title">acture — research, systems, and open source</title>
+<desc id="desc">Acture, researcher and engineer.</desc>
+<style>
+.compact {display:none}
+@media (max-width:600px) {.wide {display:none}.compact {display:inline}}
+
+.identity {animation:identity-enter .6s ease-out .5s both}
+.descriptor {animation:identity-enter .6s ease-out .8s both}
+.cursor {animation:blink 1.2s step-end infinite}
+@keyframes identity-enter {from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink {0%,100%{opacity:1}50%{opacity:0}}
+
+</style>
+<rect width="1000" height="220" fill="#0D1117" />
+<rect width="110" height="3" rx="1" fill="#A371F7" />
+<g class="wide">
+<circle cx="12" cy="38" r="4" fill="#A371F7" />
+<text x="26" y="42" fill="#9198A1" font-family="Menlo,Consolas,monospace" font-size="12" letter-spacing=".5">BUILDING</text>
+<text class="identity" x="10" y="104" fill="#F0F6FC" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="54" font-weight="700" letter-spacing="-1.5" textLength="172" lengthAdjust="spacingAndGlyphs">acture</text>
+<rect class="cursor" x="194" y="63" width="3" height="44" rx="1" fill="#A371F7" />
+<text class="descriptor" x="10" y="148" fill="#9198A1" font-family="Menlo,Consolas,monospace" font-size="18">researcher &amp; engineer</text>
+<text x="0" y="212" fill="#9198A1" fill-opacity=".65" font-family="Menlo,Consolas,monospace" font-size="11">/// research &amp; code</text>
+</g>
+<g class="compact">
+<circle cx="10" cy="26" r="7" fill="#A371F7" />
+<text x="30" y="34" fill="#9198A1" font-family="Menlo,Consolas,monospace" font-size="26">BUILDING</text>
+<text class="identity" x="0" y="120" fill="#F0F6FC" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="100" font-weight="700" letter-spacing="-2" textLength="320" lengthAdjust="spacingAndGlyphs">acture</text>
+<rect class="cursor" x="332" y="44" width="4" height="80" rx="1" fill="#A371F7" />
+<text class="descriptor" x="0" y="166" fill="#9198A1" font-family="Menlo,Consolas,monospace" font-size="40">researcher &amp; engineer</text>
+<text x="0" y="214" fill="#9198A1" fill-opacity=".65" font-family="Menlo,Consolas,monospace" font-size="26">/// research &amp; code</text>
+</g>
+</svg>
