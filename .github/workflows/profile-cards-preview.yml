@@ -1,0 +1,42 @@
+name: Profile cards preview
+
+on:
+  push:
+    branches: [preview/profile-cards-20261004]
+    paths: [.github/workflows/profile-cards-preview.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cards:
+    name: Generate ${{ matrix.theme }} cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        theme: [github, github_dark]
+    steps:
+      - name: Check out the preview branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Generate upstream summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@e722eded97059b31d7e8ad3ae0267b74ff24172d
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          USERNAME: Acture
+          NAME: Acture
+          THEME: ${{ matrix.theme }}
+          UTC_OFFSET: 8
+          EXCLUDE: HTML,CSS,MDX
+          AUTO_PUSH: false
+      - name: Upload the language and productive-time cards
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-cards-${{ matrix.theme }}
+          path: |
+            profile-summary-card-output/${{ matrix.theme }}/1-repos-per-language.svg
+            profile-summary-card-output/${{ matrix.theme }}/4-productive-time.svg
+          if-no-files-found: error
