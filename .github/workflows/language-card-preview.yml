@@ -22,7 +22,7 @@ jobs:
           core_version: 2.1.3
           fail_on_error: true
           token: ${{ github.token }}
-          options: username=Acture&layout=compact&langs_count=8&card_width=340&custom_title=Languages&hide=HTML,CSS,MDX&size_weight=0&count_weight=1&disable_animations=true&title_color=8250df&text_color=59636e&bg_color=ffffff&border_color=d1d9e0&border_radius=6
+          options: username=Acture&layout=compact&langs_count=8&card_width=340&custom_title=Languages&hide=HTML,CSS,MDX&size_weight=1&count_weight=0&disable_animations=true&title_color=8250df&text_color=59636e&bg_color=ffffff&border_color=d1d9e0&border_radius=6
           path: preview/languages-light.svg
       - name: Generate dark language card
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21
@@ -31,7 +31,7 @@ jobs:
           core_version: 2.1.3
           fail_on_error: true
           token: ${{ github.token }}
-          options: username=Acture&layout=compact&langs_count=8&card_width=340&custom_title=Languages&hide=HTML,CSS,MDX&size_weight=0&count_weight=1&disable_animations=true&title_color=a371f7&text_color=9198a1&bg_color=0d1117&border_color=30363d&border_radius=6
+          options: username=Acture&layout=compact&langs_count=8&card_width=340&custom_title=Languages&hide=HTML,CSS,MDX&size_weight=1&count_weight=0&disable_animations=true&title_color=a371f7&text_color=9198a1&bg_color=0d1117&border_color=30363d&border_radius=6
           path: preview/languages-dark.svg
       - uses: actions/upload-artifact@v6
         with:
