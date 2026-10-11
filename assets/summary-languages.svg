@@ -113,70 +113,70 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="261.89"
+          width="262.02"
           height="8"
           fill="#dea584"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="261.89"
+          x="262.02"
           y="0"
-          width="18.77"
+          width="18.57"
           height="8"
           fill="#F05138"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="270.65999999999997"
+          x="270.59"
           y="0"
-          width="17.71"
+          width="17.6"
           height="8"
           fill="#3572A5"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="278.36999999999995"
+          x="278.19"
           y="0"
-          width="15.23"
+          width="15.46"
           height="8"
           fill="#7355dd"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="283.59999999999997"
+          x="283.65"
           y="0"
-          width="12.36"
+          width="12.3"
           height="8"
           fill="#00ADD8"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="285.96"
+          x="285.95"
           y="0"
-          width="11.8"
+          width="11.76"
           height="8"
           fill="#3178c6"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="287.76"
+          x="287.71"
           y="0"
-          width="11.42"
+          width="11.49"
           height="8"
           fill="#012456"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="289.18"
+          x="289.2"
           y="0"
-          width="10.82"
+          width="10.8"
           height="8"
           fill="#89e051"
         />
@@ -185,49 +185,49 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 90.31%
+        Rust 90.35%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#F05138" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Swift 3.02%
+        Swift 2.95%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 2.66%
+        Python 2.62%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 1.80%
+        C# 1.88%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 0.81%
+        Go 0.79%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 0.62%
+        TypeScript 0.61%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#012456" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 0.49%
+        PowerShell 0.51%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
