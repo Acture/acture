@@ -113,70 +113,70 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="264.36"
+          width="262.98"
           height="8"
           fill="#dea584"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="264.36"
+          x="262.98"
           y="0"
-          width="17.5"
-          height="8"
-          fill="#F05138"
-        />
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="271.86"
-          y="0"
-          width="17.4"
+          width="17.45"
           height="8"
           fill="#3572A5"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="279.26"
+          x="270.43"
           y="0"
-          width="15.030000000000001"
+          width="17.42"
+          height="8"
+          fill="#F05138"
+        />
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="277.85"
+          y="0"
+          width="16.41"
           height="8"
           fill="#7355dd"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="284.28999999999996"
+          x="284.26000000000005"
           y="0"
-          width="12.02"
+          width="12"
           height="8"
           fill="#00ADD8"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="286.30999999999995"
+          x="286.26000000000005"
           y="0"
-          width="11.54"
+          width="11.52"
           height="8"
           fill="#3178c6"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="287.84999999999997"
+          x="287.78000000000003"
           y="0"
-          width="11.41"
+          width="11.48"
           height="8"
           fill="#012456"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="289.26"
+          x="289.26000000000005"
           y="0"
-          width="10.74"
+          width="10.73"
           height="8"
           fill="#89e051"
         />
@@ -185,35 +185,35 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 91.16%
+        Rust 90.68%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#F05138" />
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Swift 2.59%
+        Python 2.57%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <circle cx="5" cy="6" r="5" fill="#F05138" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 2.55%
+        Swift 2.56%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 1.74%
+        C# 2.21%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 0.70%
+        Go 0.69%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -227,14 +227,14 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#012456" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 0.49%
+        PowerShell 0.51%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#89e051" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Shell 0.26%
+        Shell 0.25%
       </text>
     </g>
   </g></g>
