@@ -113,34 +113,34 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="262.63"
+          width="262.58"
           height="8"
           fill="#dea584"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="262.63"
+          x="262.58"
           y="0"
-          width="17.37"
-          height="8"
-          fill="#F05138"
-        />
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="270"
-          y="0"
-          width="17.32"
+          width="17.39"
           height="8"
           fill="#3572A5"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="277.32"
+          x="269.96999999999997"
           y="0"
-          width="16.990000000000002"
+          width="17.36"
+          height="8"
+          fill="#F05138"
+        />
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="277.33"
+          y="0"
+          width="16.98"
           height="8"
           fill="#7355dd"
         />
@@ -185,21 +185,21 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 90.56%
+        Rust 90.54%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#F05138" />
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Swift 2.54%
+        Python 2.55%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <circle cx="5" cy="6" r="5" fill="#F05138" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 2.52%
+        Swift 2.54%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
