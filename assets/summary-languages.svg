@@ -113,70 +113,70 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="257.27"
+          width="256.97"
           height="8"
           fill="#dea584"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="257.27"
+          x="256.97"
           y="0"
-          width="10.64"
+          width="10.37"
           height="8"
           fill="#7355dd"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="267.90999999999997"
+          x="267.34000000000003"
           y="0"
-          width="19.33"
+          width="19.869999999999997"
           height="8"
           fill="#3572A5"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="277.23999999999995"
+          x="277.21000000000004"
           y="0"
-          width="17.19"
+          width="17"
           height="8"
           fill="#F05138"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="284.42999999999995"
+          x="284.21000000000004"
           y="0"
-          width="11.93"
+          width="11.879999999999999"
           height="8"
           fill="#00ADD8"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="286.35999999999996"
+          x="286.09000000000003"
           y="0"
-          width="11.48"
+          width="11.8"
           height="8"
           fill="#3178c6"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="287.84"
+          x="287.89000000000004"
           y="0"
-          width="11.45"
+          width="11.42"
           height="8"
           fill="#012456"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="289.28999999999996"
+          x="289.31000000000006"
           y="0"
-          width="10.71"
+          width="10.69"
           height="8"
           fill="#89e051"
         />
@@ -185,49 +185,49 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 88.71%
+        Rust 88.61%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 3.67%
+        C# 3.57%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 3.22%
+        Python 3.40%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#F05138" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Swift 2.48%
+        Swift 2.41%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 0.67%
+        Go 0.65%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 0.51%
+        TypeScript 0.62%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#012456" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 0.50%
+        PowerShell 0.49%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
